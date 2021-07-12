@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="All Test Suite" duration-ms="35" started-at="2021-07-12T17:46:13Z" finished-at="2021-07-12T17:46:13Z">
+    <groups>
+      <group name="Regression">
+        <method signature="RegressionTest.TestRegression01()[pri:0, instance:com.kamal.RegressionTest@21bcffb5]" name="TestRegression01" class="com.kamal.RegressionTest"/>
+        <method signature="RegressionTest.TestRegression02()[pri:0, instance:com.kamal.RegressionTest@21bcffb5]" name="TestRegression02" class="com.kamal.RegressionTest"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test name="Kamal : Test Cases" duration-ms="35" started-at="2021-07-12T17:46:13Z" finished-at="2021-07-12T17:46:13Z">
+      <class name="com.kamal.RegressionTest">
+        <test-method status="PASS" signature="TestRegression01()[pri:0, instance:com.kamal.RegressionTest@21bcffb5]" name="TestRegression01" duration-ms="7" started-at="2021-07-12T23:16:13Z" finished-at="2021-07-12T23:16:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestRegression01 -->
+        <test-method status="PASS" signature="TestRegression02()[pri:0, instance:com.kamal.RegressionTest@21bcffb5]" name="TestRegression02" duration-ms="1" started-at="2021-07-12T23:16:13Z" finished-at="2021-07-12T23:16:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestRegression02 -->
+      </class> <!-- com.kamal.RegressionTest -->
+    </test> <!-- Kamal : Test Cases -->
+  </suite> <!-- All Test Suite -->
+  <suite name="All Test Suite (0)" duration-ms="2" started-at="2021-07-12T17:46:13Z" finished-at="2021-07-12T17:46:13Z">
+    <groups>
+      <group name="Smoke">
+        <method signature="SmokeTest.testSmoke01()[pri:0, instance:com.kamal.SmokeTest@60addb54]" name="testSmoke01" class="com.kamal.SmokeTest"/>
+        <method signature="SmokeTest.testSmoke02()[pri:0, instance:com.kamal.SmokeTest@60addb54]" name="testSmoke02" class="com.kamal.SmokeTest"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test name="kamal : Test Cases" duration-ms="2" started-at="2021-07-12T17:46:13Z" finished-at="2021-07-12T17:46:13Z">
+      <class name="com.kamal.SmokeTest">
+        <test-method status="PASS" signature="testSmoke02()[pri:0, instance:com.kamal.SmokeTest@60addb54]" name="testSmoke02" duration-ms="1" started-at="2021-07-12T23:16:13Z" finished-at="2021-07-12T23:16:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSmoke02 -->
+        <test-method status="PASS" signature="testSmoke01()[pri:0, instance:com.kamal.SmokeTest@60addb54]" name="testSmoke01" duration-ms="0" started-at="2021-07-12T23:16:13Z" finished-at="2021-07-12T23:16:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSmoke01 -->
+      </class> <!-- com.kamal.SmokeTest -->
+    </test> <!-- kamal : Test Cases -->
+  </suite> <!-- All Test Suite (0) -->
+</testng-results>
